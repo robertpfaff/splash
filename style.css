@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+script {
+  display: none;
+}
+
+body {
+ background: rgb(48,87,241);
+background: -moz-radial-gradient(circle, rgba(48,87,241,1) 0%, rgba(0,36,179,1) 100%, rgba(153,199,236,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(48,87,241,1) 0%, rgba(0,36,179,1) 100%, rgba(153,199,236,1) 100%);
+background: radial-gradient(circle, rgba(48,87,241,1) 0%, rgba(0,36,179,1) 100%, rgba(153,199,236,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3057f1",endColorstr="#99c7ec",GradientType=1);
+}
+
+.container {
+  display: 'flex';
+  justify-content: 'center';
+  flex-direction: column;
+  align-items: 'center';
+  max-height: 100vh;
+  max-width: 100vw;
+  min-width: 480px;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+.item-1 {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  zero-index: 1;
+ }
+
+.item-2 {
+  display: flex;
+  position: relative;
+  top: 305px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+/* paths represent letters ib main animation. */
+
+path {
+      fill: #ffffff;
+}
+                     
+.st0 { 
+      fill: none;
+      stroke-width: 30px;
+      stroke: #fff;
+}
+
+.svg-wrapper {
+  display: block;
+  padding-bottom: 0px;
+  z-index: 1; 
+  width: 100%;
+  height: 50%;
+}
+
+
