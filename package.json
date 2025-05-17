@@ -1,0 +1,28 @@
+{
+  "name": "splash-coding-design",
+  "version": "1.0.0",
+  "description": "splash coding design animation website digital media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertpfaff/splash.git#main"
+  },
+  "keywords": [
+    "splash",
+    "coding",
+    "design",
+    "animation",
+    "website",
+    "digital",
+    "media"
+  ],
+  "author": "Robert Pfaff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertpfaff/splash/issues"
+  },
+  "homepage": "https://github.com/robertpfaff/splash/tree/main#readme"
+}
